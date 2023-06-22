@@ -1,0 +1,66 @@
+.contactUs{
+    width: 100%;
+    margin: 40px 0px;
+}
+.mainHeading{
+   font-size: 48px;
+   font-weight: 700;
+   text-align: center;
+}
+.nested_contactus{
+    width: 90%;
+    margin: 0 auto;
+}
+.nested_contactus{
+    display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     align-items: center;
+}
+.nested_contactus .form_section h5{
+    font-size: 36px;
+    font-weight: 700;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.form input, textarea{
+    border: 1px solid black;
+    background-color: transparent;
+    border: 1px solid #909097;
+    height: 39px;
+    border-radius: 4px;
+    margin-bottom: 29px;
+    color: #00000090;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+    padding: 4px;
+}
+textarea{
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.btn_contact{
+    display: block;
+}
+.btn_contactus{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px;
+    display: block;
+}
+.form_section{
+    width: 100%;
+}
+.map_section{
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.register{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    background-image: url('../../assests/banner/register_banner.jpg');
+    
+}
+.nested_register{
+
+}

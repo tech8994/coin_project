@@ -1,0 +1,9 @@
+.contactus{
+    background-size: cover;
+    background-position: center;
+    /* height: 65vh; */
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    background-image: url('../../assests/banner/contact_banner.jpg');
+}

@@ -1,0 +1,31 @@
+.Pages_links .nested_pages{
+    border-bottom: 1px solid rgb(117, 124, 132);
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}
+.nested_pages ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+.nested_pages ul li{
+    border-right: 1px solid white;
+    height: 60px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 16px;
+}
+.nested_pages ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+}
+@media (max-width:1024px) {
+    .Pages_links{
+        display: none;
+    }
+}

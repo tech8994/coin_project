@@ -1,0 +1,97 @@
+.login_section{
+    width: 100%;
+}
+.nested_form{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* gap: 40px; */
+    align-items: center;
+}
+.nested_form_login h1{
+    color: #26103c;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.nested_form_login input{
+    border: 1px solid black;
+    background-color: transparent;
+    border: 1px solid #909097;
+    height: 39px;
+    border-radius: 4px;
+    margin-bottom: 29px;
+    color: #00000090;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+    padding: 4px;
+}
+.btn_section  button{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn_section  button:nth-child(2){
+    /* color: #26103c; */
+    background-color: #280c3d;
+
+}
+.nested_form_login{
+    width: 100%;
+
+}
+.signUp{
+    width: 550px;
+}
+.nested_signup{
+    width: 100%;
+    background: #280c3d;
+}
+.nested_signup h1{
+    font-size: 35px;
+    padding: 40px 0px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.nested_signup p{
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: #b222b8;
+    padding: 10px 0px;
+}
+.formSignup{
+    width: 90%;
+    margin: 20px auto;
+}
+.formSignup input,.formSignup textarea{
+    min-height: 45px;
+    border-radius: 7px;
+    background-color: #fafafa;
+    border: 1px solid #e1e1e1fc;
+    color: #7d7d7d;
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    padding-left: 15px;
+    margin-bottom: 22px;
+}
+.btn_signup{
+    background-color: #2462d8;
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+      margin: 20px 0px;
+    border: 1px solid #fff;
+}

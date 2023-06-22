@@ -1,0 +1,61 @@
+.searchSection{
+    background-color: #0d0422;
+}
+.nested_ection{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+}
+.select_Box_section .select_box{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px;
+}
+.select_box:active{
+    border: none !important;
+    outline: none !important;
+}
+.select_box{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+.searchBox{
+   width: 100%;
+   background-color: #fff;
+    padding: 0px 0px 0px 16px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+.searchBox input{
+    width: 100%;
+    padding: 10px 0px;
+
+}
+.searchBox input:focus{
+    border: none;
+    outline: none;
+}
+.searchBox button{
+    width: 18%;
+    background-color: #ff961a;
+    padding: 15px 0;
+    position: relative;
+    right: -5px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

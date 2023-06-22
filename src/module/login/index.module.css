@@ -1,0 +1,57 @@
+.login_section{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    background-image: url('../../assests/banner/register_banner.jpg');
+  
+}
+/* .nested_login_section{
+    width: 80%;
+    margin: 0 auto;
+} */
+.nested_form_login{
+    width: 550px !important;
+    margin: 0 auto;
+}
+.nested_form_login h1{
+    color: #26103c;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.nested_form_login input{
+    border: 1px solid black;
+    background-color: transparent;
+    border: 1px solid #909097;
+    height: 39px;
+    border-radius: 4px;
+    margin-bottom: 29px;
+    color: #00000090;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+    padding: 4px;
+}
+.btn_section  button{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn_section  button:nth-child(2){
+    /* color: #26103c; */
+    background-color: #280c3d;
+
+}
+.nested_form_login{
+    width: 100%;
+
+}

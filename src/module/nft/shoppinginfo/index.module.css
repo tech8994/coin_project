@@ -1,0 +1,38 @@
+.ShoppingInfo{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    background-image: url('../../../assests/banner/bg-banner2.jpg');
+}
+.nested_shoppinginfo {
+     width: 90%;
+     margin: 0 auto;
+     padding: 80px 0px;
+    
+}
+.nested_shoppinginfo h1{
+    font-size: 42px;
+    line-height: 52px;
+    padding: 0 0 20px;
+    font-weight: 700;
+    width: 50%;
+}
+.nested_shoppinginfo p{
+    width: 50%;
+
+}
+.btn_shoopping button{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px;
+    /* width: 220px; */
+    margin: 20px 0px;
+}

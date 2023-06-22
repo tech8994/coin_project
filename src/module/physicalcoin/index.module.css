@@ -1,0 +1,10 @@
+.phsical_coin{
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100%;
+   position: relative;
+   background-image: url('../../assests/banner/physical_coin_banner.jpg');
+   
+}

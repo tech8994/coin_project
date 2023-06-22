@@ -1,0 +1,127 @@
+.Card{
+   width: 100%;
+}
+.Card .nested_section{
+     width: 90%;
+     margin: 20px auto;
+     display: flex;
+     gap: 20px;
+     align-items: center;
+}
+.main_card{
+    border-width: 1px;
+    border-color: rgb(102, 102, 102);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    margin: 0 0 50px;
+    width: 50%;
+}
+.main_card .img{
+    width: 100%;
+}
+.content_section{
+    position: relative;
+}
+.content_section svg{
+    position: absolute;
+    right: 20px;
+    font-size: 34px;
+    color: #FF961A;
+}
+.testimonls h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #FF961A;
+    padding: 0 0 20px;
+}
+.main_card:hover{
+    background-color: #FF961A;
+    border: #FF961A;
+    color: white;
+}
+.main_card:hover .content_section svg{
+    color: white;
+}
+.main_card:hover .testimonls h1{
+    color: white;
+}
+
+
+.flex_wrapper {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 10px;
+    /* flex-flow: row nowrap; */
+  }
+  
+  .single_chart {
+    /* width: 33%; */
+    display: flex;
+    width: 40%;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content_pert h5{
+      font-weight: 700;
+      font-size: 18px;
+      padding: 0 0 10px;
+  }
+  .content_pert p{
+    font-size: 12px;
+    color: #757c84;
+  }
+  
+  .circular_chart {
+    display: block;
+    margin: 10px 0px;
+    max-width: 20%;
+    max-height: 210px;
+  }
+  
+  .circle_bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 1.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 1.2;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular_chart.orange .circle {
+    stroke: #ff9f00;
+  }
+  
+  .circular_chart.green .circle {
+    stroke: #4CC790;
+  }
+  
+  .circular_chart.blue .circle {
+    stroke: #3c9ee5;
+  }
+  
+  .percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+

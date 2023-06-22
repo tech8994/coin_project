@@ -1,0 +1,56 @@
+.about_page{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../../assests/banner/about-banner.jpg');
+}
+.nested_about{
+    display: flex;     
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  inset: 0;
+}
+.nested_about .content_section_about h1{
+    width: 100%;  
+    font-size: 72px;
+    font-weight: 700;
+    padding: 0px 0px 20px;
+    color: white;
+}
+.nested_about .content_section_about p{
+    font-size: 16px;
+    color: #a2a2a2;
+    font-weight: 300;
+    padding: 0 0 20px;
+}
+.yellow_about{
+    color: #ff961a;
+    font-weight: 300;
+    margin-left: -6px;
+}
+.nested_home  .img_about{
+    width: 100%;
+}
+.btn_about button{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px
+}
+@media (max-width:768px) {
+    .nested_about{
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .nested_about .content_section_about h1{
+        font-size: 42px;
+    }
+
+}

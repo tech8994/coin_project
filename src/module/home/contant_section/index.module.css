@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.Contant_section{
+    width: 100%;
+}
+.nested_contact_section{
+    width: 90%;
+    margin: 40px auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+.photo p{
+    bottom: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+}
+.desc_section p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+}
+
+.btn_getStarted button{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px
+}
+.btn_getStarted button:hover{
+    background: transparent;
+    color: #ff961a;
+    border-color: #ff961a;
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .photo{
+        flex-direction: column;
+    }
+}

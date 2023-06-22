@@ -1,0 +1,70 @@
+.about_data_section{
+    width: 100%;   
+}
+.about_data_section .nested_about{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.nested_about_desc{
+    width: 90%;
+    margin: 0 auto;
+}
+/* .nested_about .nested_about_desc, .nested_about .nested_about_phto{
+    width: 100%;
+} */
+.nested_about_phto{
+    width: 100%;
+}
+.desc_section{
+    width: 100%;
+}
+.desc_section h1{
+    width: 100%;  
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0px 0px 20px;
+    color: black;
+}
+.desc_section .about_heading{
+     color: #ff961a;
+     margin-top: -20px;
+}
+.desc_section p{
+    font-size: 16px;
+    color: #a2a2a2;
+    font-weight: 300;
+    padding: 0 0 20px;
+}
+.desc_section .yellow_about_desc{
+    color: #ff961a;
+    font-weight: 300;
+    margin-left: -6px;
+}
+.desc_section .btn_about_desc button{
+    color: #ffffff;
+    font-size: 18px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px
+}
+.desc_section .btn_about_desc button:hover{
+    background: transparent;
+    color: #ff961a;
+    border-color: #ff961a;
+    text-decoration: none;
+}
+@media (max-width:880px) {
+    .nested_about_desc{
+        flex-direction: column;
+    }
+}
+@media (max-width:768px) {
+    .desc_section h1 br{
+       display: none !important;
+    }
+}

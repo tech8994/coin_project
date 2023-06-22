@@ -1,0 +1,77 @@
+.description_section{
+    width: 100%;
+    background-color: #0d0422;
+}
+.description_section .nested_desciption_section{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 20px;
+
+}
+.bigNews_section{
+    background-color: rgb(54, 43, 79);
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px dashed #fff;
+}
+.bigNews_section h3{
+    color: white;
+    font-weight: 600;
+    padding: 0 0 15px;
+    font-size: 22px;
+}
+.bigNews_section .img_bigNews{
+    width: 100%;
+    margin: 0 0 20px;
+}
+.dollar_para{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 15px;
+    color: rgb(117, 124, 132);;
+}
+.dollar_rate{
+    padding-left: 10px;
+    color: #ff961a;
+
+}
+.timing p{
+    color: white;
+}
+.timing p span{  
+    color: #ff961a;
+
+}
+.timing ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+.timing ul li span{
+    height: 50px !important;
+    width: 50px !important;
+    background-color: #ff961a;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 6px;
+    font-weight: 700;
+    border-radius: 50%;
+    /* margin: 0 0 3px; */
+}
+/* .movies_section_carosal{
+    display: grid;
+    grid-template-columns: 1fr;
+} */
+
+.movies_section_carosal .fiestImg img{    
+    background-size: cover;
+    border-radius: 20px;
+    margin: 0 0 40px;
+
+}
