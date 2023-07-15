@@ -1,0 +1,40 @@
+.UpdatePassowrd{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../../../assests/banner/about-banner.jpg');
+}
+.newPassword{
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid rgba(0,0,0,.125);
+   padding: 20px;
+}
+.oldPassword, .newPassowrd{
+   width: 100%;    
+}
+.oldPassword label, .newPassowrd label{
+    display: block;
+}
+.oldPassword input, .newPassowrd input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+.newPassowrd div{
+    width: 100%;
+}
+.newPassword button{
+    font-size: 16px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 16px 12px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px;
+    width: 180px;
+    color: white;
+}

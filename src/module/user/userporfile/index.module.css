@@ -1,0 +1,106 @@
+.userprofile{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../../../assests/banner/about-banner.jpg');
+}
+.profile_section{
+   width: 450px ;  
+   margin: 40px auto;
+   border: 1px solid rgba(0,0,0,.125);
+}
+.profile_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.profile_header button{
+    color: #ffffff;
+    font-size: 16px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px
+}
+.profile_content{
+    padding: 1.25rem;
+    display: flex; 
+     gap: 28px;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+}
+.profile_content div{
+    width: 100%;
+}
+.profile_content img{
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.profile_data div{
+
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.input_name label{
+    display: block;
+}
+.input_name input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+.formStyle button{
+    color: #ffffff;
+    font-size: 16px;
+    background: #ff961a;
+    border: 1px solid transparent;
+    padding: 16px 12px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-radius: 5px;
+    width: 180px;
+}
+.nested_dashboard_content{
+    width: 80%;   
+    margin: 40px auto;
+ }
+ .tail{
+    width: 100%;   
+}
+.tail a{
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid #ff961a;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 30px 0px;
+}

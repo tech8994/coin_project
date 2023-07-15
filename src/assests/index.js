@@ -27,7 +27,26 @@ import nft_5 from "./nfts/nft-5.jpg";
 import nft_6 from "./nfts/nft-6.jpg";
 import nft_7 from "./nfts/nft-7.jpg";
 import nft_8 from "./nfts/nft-8.jpg";
+import imgbitcoin from "./imgbitcoin.png";
+import img_coin from "./img_coin.jpg";
+import nft1 from "./nfts/1.png";
+import nft2 from "./nfts/2.jpg";
+import nft3 from "./nfts/3.jpg";
+import nft4 from "./nfts/4.jpg";
+import nft5 from "./nfts/5.jpg";
+import nft6 from "./nfts/6.jpg";
+import nft7 from "./nfts/7.png";
+import nft8 from "./nfts/8.png";
+import nft9 from "./nfts/9.png";
+import nft10 from "./nfts/10.png";
+import nft11 from "./nfts/11.png";
+import nft12 from "./nfts/12.jpg";
+import nft13 from "./nfts/13.png";
+import nft14 from "./nfts/14.png";
+import nft15 from "./nfts/15.jpg";
 
+
+import user from "./user.png";
 // import about_img from "./about-img.png";
 
 export {
@@ -60,4 +79,22 @@ export {
     nft_6,
     nft_7,
     nft_8,
+    imgbitcoin,
+    img_coin,
+    nft1,
+    nft2,
+    nft3,
+    nft4,
+    nft5,
+    nft6,
+    nft7,
+    nft8,
+    nft9,
+    nft10,
+    nft11,
+    nft12,
+    nft13,
+    nft14,
+    nft15,
+    user
 }

@@ -18,7 +18,7 @@ export const Service = () => {
       <Header />
       <SecondHeader />
       <div className={`${style.nested_service}`}>
-         <TopSection/>
+      <TopSection/>
       </div>
     </div>
     <div className={style.comp}>

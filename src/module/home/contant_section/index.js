@@ -1,23 +1,26 @@
 import React from "react";
 import { coin_img_1, coin_img_2 } from "../../../assests";
 import style from "./index.module.css";
-import {Btn} from "../../../component"
+import {Btn} from "../../../component";
+import { NavLink } from "react-router-dom";
 export const Contant_section = () => {
   return (
     <div className={`${style.Contant_section}`}>
       <div className={`${style.nested_contact_section}`}>
         <div className={`flex justify-center gap-5 items-center ${style.photo}`}>
           <div className="">
-            <a href="#" className="relative flex justify-center">
+            <NavLink to="/physical-coin" className="relative flex justify-center">
               <img src={coin_img_1} alt="coin_img_1" />
               <p className="absolute bottom-0 text-center">Physical Coin</p>
-            </a>
+            </NavLink>
           </div>
           <div>
-            <a href="#" className="relative flex justify-center">
+            {/* <a href="#" > */}
+              <NavLink to={"/digital-coin"} className="relative flex justify-center">
               <img src={coin_img_2} alt="coin_img_2" />
-              <p className="absolute bottom-0 text-center">Physical Coin</p>
-            </a>
+              <p className="absolute bottom-0 text-center">Digital NFT</p>
+              </NavLink>
+            {/* </a> */}
           </div>
         </div>
         <div className={`${style.desc_section} my-12`}>

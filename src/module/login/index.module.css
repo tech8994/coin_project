@@ -44,12 +44,17 @@
     font-family: 'Poppins';
     font-weight: 700;
     border-radius: 5px;
-    margin: 10px;
+    /* margin: 10px; */
+    width: 180px;
 }
 .btn_section  button:nth-child(2){
     /* color: #26103c; */
     background-color: #280c3d;
 
+}
+.signup_section a{
+ color: #ff961a;  
+ font-size: 18px;
 }
 .nested_form_login{
     width: 100%;

@@ -1,0 +1,19 @@
+.coing_section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    background-image: url('../../../assests/banner/register_banner.jpg');
+    
+}
+.img_Section{
+    width: 90%;
+    margin: 40px auto;
+}
+.img_Section  div{
+   width: 100%;
+}
+.img_Section div img{
+    border-radius: 4px;
+}

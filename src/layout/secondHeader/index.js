@@ -10,6 +10,7 @@ export const SecondHeader = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/aboutus">About Us</NavLink></li>
         <li><NavLink to="/services">Services</NavLink></li>
+        <li><NavLink to="/physical-coin">Phsical Coin</NavLink></li>
         <li><NavLink to="/contactus">Contact Us</NavLink></li>
         </ul>        
      </div>

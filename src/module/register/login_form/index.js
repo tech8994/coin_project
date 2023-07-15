@@ -13,6 +13,11 @@ export const LoginFormReg = () => {
     password: "",
     phoneNumber: "",
     message: "",
+    address: "",
+    country: "",
+    province: "",
+    city: "",
+    zipCode: "",
   });
    
   const navigate=useNavigate();
@@ -23,7 +28,7 @@ export const LoginFormReg = () => {
   let onSubmutFUnc = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5001/register", data)
+      .post("https://coin-apps-dad75aa17cff.herokuapp.com/register", data)
       .then((resp) => {
         console.log(resp);
         if (resp.data.status_code == 200) {
@@ -100,6 +105,45 @@ export const LoginFormReg = () => {
                 onChange={onChangeData}
                 required
               />
+              <input
+                type="text"
+                placeholder="address"
+                name="address"
+                onChange={onChangeData}
+                required
+              />
+              <div className={`flex gap-4 items-center ${style.inputData}`}>
+              <input
+                type="text"
+                placeholder="Country"
+                name="country"
+                onChange={onChangeData}
+                required
+              />
+              <input
+                type="text"
+                placeholder="Province"
+                name="province"
+                onChange={onChangeData}
+                required
+              />
+              </div>
+              <div className={`flex gap-4 items-center`}>
+              <input
+                type="text"
+                placeholder="City"
+                name="city"
+                onChange={onChangeData}
+                required
+              />
+              <input
+                type="number"
+                placeholder="Zip Code"
+                name="zipCode"
+                onChange={onChangeData}
+                required
+              />
+              </div>
               <textarea
                 cols="30"
                 rows="4"

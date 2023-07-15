@@ -14,6 +14,46 @@
     text-align: center;
     font-size: 48px;
 }
-.nested_section_selectbox{
-    
+
+.nested_section_selectbox .selectbox{
+   width: 550px;   
+   display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 0px;
 }
+.nested_section_selectbox .selectbox select {
+    background-color: transparent;
+    border: 1px solid #c7c7c7;
+    height: 65px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px 24px;
+    margin: 20px 0px;
+
+}
+.nested_section_selectbox .selectbox label{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    background-color: #ff961a;
+    color: #fff;
+    padding: 7px 17px;
+    font-size: 11px;
+    border-radius: 10px;
+}
+.button_data{
+    margin: 20px 0px;
+}
+.button_data button{
+    background: #ff961a;
+    border: navajowhite !important;
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 15px;
+    width: auto;
+    padding: 22.5px 90px;
+    height: auto;
+    border-radius: 4px;
+}
+

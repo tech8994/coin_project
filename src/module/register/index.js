@@ -7,14 +7,14 @@ import { Card } from '../service/card';
 
 
 export const Register = () => {
-
+    let data= "Register"
   return (
     <>
     <div className={style.register}>
       <Header />
       <SecondHeader />
       <div className={`${style.nested_register}`}>
-      <TopSectionRegister/>
+      <TopSectionRegister data={data}/>
       </div>
     </div>
       <div>

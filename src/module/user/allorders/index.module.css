@@ -1,0 +1,82 @@
+.allorders{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../../../assests/banner/about-banner.jpg');
+}
+.nested_allorder{
+   width: 80%;   
+   margin: 40px auto;
+}
+.tail{
+    width: 100%;   
+}
+.tail a{
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 30px 0px;
+}
+.table_section{
+    width: 80%;
+    margin: 40px auto;
+}
+.nested_dashboard_content{
+    width: 80%;   
+    margin: 40px auto;
+ }
+ .tail{
+    width: 100%;   
+}
+.tail a{
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid #ff961a;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 30px 0px;
+}
+.message_order{
+    width: 80%;
+    margin: 40px auto;
+}
+.message_order p{
+    font-size: 18px;
+}
+.tablehead th{
+    font-weight: 600;
+    font-size: 18px;
+}
+.statusdata span{
+    border: 1px solid #dc3545;
+    border-radius: 0.25rem;
+    padding: 14px;
+    color: #dc3545;
+
+}
